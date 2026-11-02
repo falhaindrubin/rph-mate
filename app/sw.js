@@ -1,6 +1,6 @@
 // Offline support: serve from the cache at once, refresh the cache in the background.
 // tools/release.js rewrites CACHE for each release so old caches are dropped.
-const CACHE = 'rph-mate-20261102-beaaa90';
+const CACHE = 'rph-mate-20261102-348c611';
 
 // No skipWaiting: a new release waits until the app's windows are closed, so one session never mixes old and new modules
 self.addEventListener('activate', e => e.waitUntil(
